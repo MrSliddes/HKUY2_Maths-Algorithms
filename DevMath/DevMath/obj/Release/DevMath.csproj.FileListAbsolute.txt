@@ -4,3 +4,9 @@ C:\(User) Program Save Data\Microsoft Visual Studio Projects\HKU DevMath\DevMath
 C:\(User) Program Save Data\Microsoft Visual Studio Projects\HKU DevMath\DevMath\DevMath\obj\Release\DevMath.dll
 C:\(User) Program Save Data\Microsoft Visual Studio Projects\HKU DevMath\DevMath\DevMath\obj\Release\DevMath.pdb
 C:\(User) Program Save Data\Microsoft Visual Studio Projects\HKU DevMath\DevMath\DevMath\obj\Release\DevMath.csprojAssemblyReference.cache
+C:\Users\Mr_Sl\Documents\GitHub\HKUY2_Maths-Algorithms\DevMath\DevMath\bin\Release\DevMath.dll
+C:\Users\Mr_Sl\Documents\GitHub\HKUY2_Maths-Algorithms\DevMath\DevMath\bin\Release\DevMath.pdb
+C:\Users\Mr_Sl\Documents\GitHub\HKUY2_Maths-Algorithms\DevMath\DevMath\obj\Release\DevMath.csprojAssemblyReference.cache
+C:\Users\Mr_Sl\Documents\GitHub\HKUY2_Maths-Algorithms\DevMath\DevMath\obj\Release\DevMath.csproj.CoreCompileInputs.cache
+C:\Users\Mr_Sl\Documents\GitHub\HKUY2_Maths-Algorithms\DevMath\DevMath\obj\Release\DevMath.dll
+C:\Users\Mr_Sl\Documents\GitHub\HKUY2_Maths-Algorithms\DevMath\DevMath\obj\Release\DevMath.pdb
