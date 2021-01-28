@@ -25,14 +25,7 @@ namespace DevMath
 
         public Vector4 Normalized
         {
-            get
-            {
-                int nX; if(x != 0) nX = x / Math.Abs(x);
-                int nY; if(y != 0) nY = y / Math.Abs(y);
-                int nZ; if(z != 0) nZ = z / Math.Abs(z);
-                int nW; if(w != 0) nW = w / Math.Abs(w);
-                return new Vector4(nX, nY, nZ, nW);
-            }
+            get { return this / Magnitude; }
         }
 
         public Vector4(float x, float y, float z, float w)

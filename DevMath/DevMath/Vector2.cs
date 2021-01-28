@@ -20,12 +20,13 @@ namespace DevMath
         public Vector2 Normalized
         {
             // Dus x = 9 word dan 1 en x = -9 is -1. Dus gwn delen door zichzelf. Let op dat je niet door 0 kan delen!
-            get
+            /*get
             {
-                int nX; if(x != 0) nX = x / Math.Abs(x);
-                int nY; if(y != 0) nY = y / Math.Abs(y);
-                return new Vector2(nX, nY);
-            }
+                float nX =0 ; if(x != 0) nX = x / Math.Abs(x);
+                float nY = 0; if(y != 0) nY = y / Math.Abs(y);
+                return new Vector2(nX, nY); // Deze zooi werkt niet?
+            }*/
+            get { return this / Magnitude; } // Dit kan blijkbaar ook?
         }
 
         public Vector2(float x, float y)
@@ -49,14 +50,14 @@ namespace DevMath
         public static float Angle(Vector2 lhs, Vector2 rhs)
         {
             // Vergeet niet dat de volgorde anders is -_-
-            return Math.Atan2(rhs.y - lhs.y, rhs.x - lhs.x);
+            return (float)Math.Atan2(rhs.y - lhs.y, rhs.x - lhs.x);
         }
 
         public static Vector2 DirectionFromAngle(float angle)
         {
             // Cos en sin. Hier dan dus devmath gebruiken ipv math? sinds ik de DegToRad toch al heb geschreven
-            int dX = (float)Math.Cos(DevMath.DegToRad(angle));
-            int dY = (float)Math.Sin(DevMath.DegToRad(angle));
+            float dX = (float)Math.Cos(DevMath.DegToRad(angle));
+            float dY = (float)Math.Sin(DevMath.DegToRad(angle));
             return new Vector2(dX, dY);
         }
 

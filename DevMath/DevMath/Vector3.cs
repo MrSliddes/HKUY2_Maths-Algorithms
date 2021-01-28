@@ -22,13 +22,7 @@ namespace DevMath
 
         public Vector3 Normalized
         {
-            get
-            {
-                int nX; if(x != 0) nX = x / Math.Abs(x);
-                int nY; if(y != 0) nY = y / Math.Abs(y);
-                int nZ; if(z != 0) nZ = z / Math.Abs(z);
-                return new Vector3(nX, nY, nZ);
-            }
+            get { return this / Magnitude; }
         }
 
         public Vector3(float x, float y, float z)
